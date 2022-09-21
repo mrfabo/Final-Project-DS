@@ -8,5 +8,5 @@ Il piano per il progetto è il seguente:
 * Successivamente, addestrare un modello ad albero decisionale da Scikit-learn per prevedere la probabilità di default.
 * stabilire quali sono i parametri del modello e regolare questi parametri per ottenere le migliori prestazioni.
 * combinare più alberi decisionali in un unico modello, random forest. Esamine i parametri e metterli a punto per ottenere le migliori prestazioni predittive.
-* esploriamo un modo diverso di combinare gli alberi decisionali: il gradient boosting. Utilizziamo XGBoost, una libreria altamente efficiente che implementa il gradient boosting. Addestriamo un modello e ne mettiamo a punto i parametri.
+* esplorare un modo diverso di combinare gli alberi decisionali: il gradient boosting. Utilizzare XGBoost, una libreria altamente efficiente che implementa il gradient boosting. Addestrare un modello e ne mettere a punto i parametri.
 Lo scoring del rischio di credito è un problema di classificazione binaria: l'obiettivo è positivo ("1") se il cliente è inadempiente e negativo ("0") altrimenti. Per valutare la nostra soluzione, utilizzeremo l'AUC (area sotto la curva ROC). L'AUC descrive la capacità del nostro modello di separare i casi positivi da quelli negativi. L'AUC descrive la capacità del nostro modello di separare i casi in positivi e negativi.
