@@ -13,4 +13,4 @@ Il piano per il progetto è il seguente:
 Lo scoring del rischio di credito è un problema di classificazione binaria: l'obiettivo è positivo ("1") se il cliente è inadempiente e negativo ("0") altrimenti. Per valutare la nostra soluzione, utilizzeremo l'AUC (area sotto la curva ROC). L'AUC descrive la capacità del nostro modello di separare i casi positivi da quelli negativi.
 
 
-Per vedere il progetto vedere il file Progetto scoring rischio di credito.ipynb
+Per vedere il progetto apire il file Progetto scoring rischio di credito.ipynb
