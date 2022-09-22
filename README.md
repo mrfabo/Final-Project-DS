@@ -9,4 +9,5 @@ Il piano per il progetto è il seguente:
 * stabilire quali sono i parametri del modello e regolare questi parametri per ottenere le migliori prestazioni.
 * combinare più alberi decisionali in un unico modello, random forest. Esamine i parametri e metterli a punto per ottenere le migliori prestazioni predittive.
 * Utilizzare XGBoost e mettere a punto i parametri.
+
 Lo scoring del rischio di credito è un problema di classificazione binaria: l'obiettivo è positivo ("1") se il cliente è inadempiente e negativo ("0") altrimenti. Per valutare la nostra soluzione, utilizzeremo l'AUC (area sotto la curva ROC). L'AUC descrive la capacità del nostro modello di separare i casi positivi da quelli negativi.
